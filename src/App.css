@@ -1,0 +1,31 @@
+.layout-wrapper{
+    position: relative;   
+}
+.heroSection{
+    width: 100vw;
+    max-height: 850px;
+}
+.solutionSection{
+    position: absolute;
+    top: 1100px;
+    width: 90%;
+    text-align: center; 
+}
+.section3{
+    position: absolute;
+    top: 1700px;
+    width: 90%;
+    text-align: center;
+}
+.section4{
+    position: absolute;
+    top: 2800px;
+    width: 100%;
+    text-align: center;
+}
+.section5{
+    position: absolute;
+    top: 3600px;
+    width: 100%;
+    text-align: center;
+}

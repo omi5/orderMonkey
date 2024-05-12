@@ -1,0 +1,30 @@
+.solutionSection-wrapper{
+    /* color: black; */
+    margin-left: 18%;
+}
+.solutionSection-info{
+    margin: 0 auto;
+}
+.solutionSection-wrapper .solutionSection-info h1{
+    font-size: 82px;
+    font-weight: 600px;
+}
+.solutionSection-wrapper .solutionSection-info p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing:2.5px;
+}
+.solutionSection-wrapper .solutionSection-pera{
+    width: 800px;
+    margin: 0 auto;
+    color: gray;
+    margin-top: 1.5%;
+}
+.solutionSection-wrapper .percentage-div{
+    margin-top: 8.5%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+   
+}

@@ -2,8 +2,6 @@ import React from 'react'
 import Navbar from '../navbar/Navbar'
 import HeroImg from '../../assets/images/hero.png'
 import HeroImg1 from '../../assets/images/egg.png'
-import HeroImg2 from '../../assets/images/plateWithFood.png'
-import HeroImg3 from '../../assets/images/orderPos.png'
 import ComaLeft from '../../assets/images/comaLeft.png'
 import ComaRight from '../../assets/images/comaRight.png'
 import FooterHero from '../../assets/images/footerHero.png'
@@ -11,6 +9,7 @@ import Pos from '../../assets/images/orderPos.png'
 import Food from '../../assets/images/plateWithFood.png'
 
 import './HeroSection.css'
+import HeroSectionInfo from '../heroSectionInfo/HeroSectionInfo'
 const HeroSection = () => {
   return (
     <>
@@ -41,8 +40,10 @@ const HeroSection = () => {
           <div className="hero-plateWithFood-section">
             <img src={Food} alt="food" />
           </div>
+          <div className="heroInfo-div">
+            <HeroSectionInfo />
+          </div>
         </div>
-      
     </>
   )
 }

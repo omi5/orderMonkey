@@ -17,4 +17,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Grauna, sans-serif;
+}
+body{
+  width: 100vw;
+  overflow-x: hidden;
 }

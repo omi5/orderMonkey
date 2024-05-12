@@ -1,0 +1,42 @@
+.section3-wrapper{
+    margin-left: 18%;
+    margin-top: 8%;
+}
+.section3-info{
+    margin: 0 auto;
+}
+.section3-wrapper .section3-info h1{
+    font-size: 82px;
+    font-weight: 600px;
+}
+.section3-wrapper .section3-info p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing:2.5px;
+}
+.section3-wrapper .section3-pera{
+    width: 800px;
+    margin: 0 auto;
+    color: gray;
+    margin-top: 1.5%;
+}
+.section3-wrapper .video-wrapper{
+    margin-top: 4%;
+    position: relative;
+}
+.section3-wrapper .youtubeLogo-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.section3-wrapper .hidden{
+    display: none;
+}
+.section3-wrapper .video-wrapper iframe{
+    width: 100%;
+    height: 650px;
+    border-radius:15px ;
+}

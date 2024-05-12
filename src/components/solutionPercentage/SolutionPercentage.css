@@ -1,0 +1,17 @@
+.solutionPercentage-wrapper h1{
+    /* font-size: 160px;
+    font-weight: bold;
+    color: #fff;
+    -webkit-text-stroke: 3px #e3051b;
+    text-shadow: 10px -5px #e3051b; */
+    color: #fff;
+    text-shadow: -3px 0 #e3051b, 3px 0 #e3051b, 0 2px #e3051b, 8px -8px 1px #e3051b;
+    font-size: 100px;
+    font-family: Grauna, sans-serif;
+}
+.solutionPercentage-wrapper p{
+    width: 350px;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+}
