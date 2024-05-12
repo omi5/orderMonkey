@@ -6,7 +6,7 @@ const Section4 = () => {
   return (
     <>
         <div className="section4-wrapper">
-         <div className="section4Container">
+         <div className="section4-Container">
          <div className="left-div">
           <div className='section4Info'>
                 <h1>Revolutionize your Restaurant with ORDERMONKEY's Selforder-Terminal</h1>

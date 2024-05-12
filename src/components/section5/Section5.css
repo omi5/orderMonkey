@@ -1,6 +1,7 @@
 .section5-wrapper{
     width: 100%;
     position: relative;
+    background-color: black;
 }
  .img-div {
     width: 100%;
@@ -13,10 +14,116 @@
     width: 100%;
     height: 80px;
 }
-.section5-wrapper .section5-container{
+ .section5-container{
     width: 100%;
-    height: 700px;
+    height: 850px;
     position: absolute;
     top: 64px;
     background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 6%; */
+    padding-top: 6%;
+}
+.section5-container-div{
+    width: 80%;
+    height: 100%;
+}
+.section5-wrapper .section5-container .icon-div{
+    position: absolute;
+    right: 0.9%;
+    bottom: 12%;
+}
+/* 
+.section5-Container{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 6%;
+    padding-top: 6%;
+} */
+.section5-left-div{
+    width: 455px;
+    height: 746px;
+    text-align: left;
+    color: #fff;
+    margin-left: 2.8%;
+}
+.section5-wrapper .section5Info{
+    /* margin-left: 4.5%; */
+    margin-left: 18.5%;
+}
+.section5-left-div h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.section5-left-div p{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 4%;
+}
+.section5-right-div{
+    display: flex;
+    color: #fff;
+    text-align: left;
+}
+.section5-middle-div img{
+    width: 286px;
+    height: 476px;
+}
+.section5-right-div .section5-right-div-leftside{
+    width: 217px;
+    height: 158px;
+}
+.section5-right-div .section5-right-div-rightside{
+    width: 217px;
+    height: 158px;
+}
+.section5-btn-div{
+    margin-top: 18%;
+    margin-left: 15%;
+    display: flex;
+    
+}
+.section5-btn-div .section5-without-bg-color{
+    background-color: #000;
+    color: #fff;
+    padding: 12px 3px;
+    border: none;
+    border: 1.2px solid #fff;
+    width: 185px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* .section5-btn-div .section5-without-bg-color:hover{
+    background-color: #fff;
+    color: #e3051b;
+} */
+.section5-btn-div .section5-with-bg-color{
+    background-color: #e3051b;
+    color: #fff;
+    padding: 12px 3px;
+    border: none;
+    width: 185px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.section5-right-div h2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 7%;
+
+}
+.section5-right-div .section5-right-div-leftside{
+    margin-right: 5%;
+}
+.section5-right-div .mt{
+    margin-top: 10%;
 }

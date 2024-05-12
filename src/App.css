@@ -1,5 +1,6 @@
 .layout-wrapper{
     position: relative;   
+    
 }
 .heroSection{
     width: 100vw;
@@ -26,6 +27,12 @@
 .section5{
     position: absolute;
     top: 3600px;
+    width: 100%;
+    text-align: center;
+}
+.section6{
+    position: absolute;
+    top: 4450px;
     width: 100%;
     text-align: center;
 }

@@ -1,0 +1,41 @@
+.section6-wrapper{
+    width: 100%;
+    position: relative;
+    
+}
+ .section6-img-div {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: -15px;
+    z-index: 2;
+}
+.section6-container h1{
+    font-size: 68px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 7%;
+}
+.section6-wrapper .section6-img-div img{
+    width: 100%;
+    height: 80px;
+}
+.section6-container{
+    width: 100%;
+    height: 1050px;
+    position: absolute;
+    top: 64px;
+    background-color: #e3051b;
+    padding-top: 6%;
+}
+.section6-upper-row-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+.section6-lower-row-div{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
