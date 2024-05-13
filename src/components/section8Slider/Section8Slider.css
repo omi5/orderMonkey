@@ -1,0 +1,33 @@
+.section8Slider-wrapper{
+    width: 100%;
+}
+.section8Slider-container{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    height: 600px;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 5%;
+}
+.section8Slider-container .section8SliderInfo{
+    width: 685px;
+    height: 350px;
+    margin-left: 12%;
+    text-align: left;
+}
+.section8Slider-container .section8SliderInfo h1{
+    font-size: 68px;
+    font-weight: bold;
+}
+.section8Slider-container .section8SliderInfo p{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+}
+.section8SliderInfo .info-img img{
+    width: 105px;
+    height: 56px;
+}
