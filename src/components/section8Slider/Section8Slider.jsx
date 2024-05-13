@@ -1,11 +1,13 @@
 import React from 'react'
 import './Section8Slider.css'
 
+
 const Section8Slider = ({image,title,text,logo}) => {
   return (
     <>
         <div className="section8Slider-wrapper">
             <div className="section8Slider-container">
+               
                 <div className="section8Slider-img">
                     <img src={image} alt="" />
                 </div>

@@ -1,5 +1,6 @@
 import React, { useState }from 'react'
 import YoutubeLogo from '../../assets/images/youtubeLogo.png'
+import TopbarImage from '../../assets/images/videoTopbar.png'
 import './Section3.css'
 
 const Section3 = () => {
@@ -24,6 +25,9 @@ const Section3 = () => {
            </div>
            <iframe width="560" height="315" src="https://www.youtube.com/embed/OILskPEnxg4?si=laKUpbqVlmbsF_U9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
            </div>
+            <div className='section4-topbar-img'>
+                    <img src={TopbarImage} alt="" />
+              </div>
         </div>
     </>
   )

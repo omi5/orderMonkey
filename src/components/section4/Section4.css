@@ -2,15 +2,24 @@
     width: 100%;
     height: 850px;
     background-color: #d6051a;
+    position: relative;
 }
 
 .section4-Container{
     width: 90%;
     display: flex;
     justify-content: space-evenly;
-    margin-left: 6%;
-    padding-top: 6%;
+    margin-left: 6%; 
+     padding-top: 6%;
 }
+
+/* 
+.section4-wrapper .section4-container .section4-topbar-img img{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+} */
 .left-div{
     width: 455px;
     height: 746px;
