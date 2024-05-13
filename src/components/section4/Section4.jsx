@@ -1,16 +1,17 @@
 import React from 'react'
 import Image from '../../assets/images/middleDiv.png'
-// import TopbarImage from '../../assets/images/videoTopbar.png'
+import TopbarImage from '../../assets/images/newBar.png'
 import './Section4.css'
 
 const Section4 = () => {
   return (
     <>
         <div className="section4-wrapper">
-         <div className="section4-Container">
-              {/* <div className='section4-topbar-img'>
+        <div className='section4-topbar-img'>
                     <img src={TopbarImage} alt="" />
-              </div> */}
+              </div>
+         <div className="section4-Container">
+              
          <div className="left-div">
           <div className='section4Info'>
                 <h1>Revolutionize your Restaurant with ORDERMONKEY's Selforder-Terminal</h1>
