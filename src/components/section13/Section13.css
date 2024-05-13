@@ -1,0 +1,14 @@
+.section13-wrapper{
+    width: 100%;
+    position: relative;
+}
+.section13-container{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    background-color: #fff;
+}
+.section13-wrapper .section13-container .section13-topbar-img img{
+    width: 100%;
+    height: 70px;
+}

@@ -1,0 +1,10 @@
+.section11-wrapper{
+    width: 100%;
+    position: relative;
+}
+.section11-container{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    background-color: #fff;
+}
