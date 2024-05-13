@@ -3,6 +3,7 @@ import './Section13.css'
 import TopbarImage from '../../assets/images/section13Topbar.png'
 
 
+
 const Section13 = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Section13 = () => {
                 </div>
                 <div className="section13-Slider-div">
                     {/* <Section13Slider /> */}
+                  
                 </div>
             </div>
         </div>
