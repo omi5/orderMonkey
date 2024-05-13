@@ -4,6 +4,7 @@ import Section3 from './components/section3/Section3'
 import Section4 from './components/section4/Section4'
 import Section5 from './components/section5/Section5'
 import Section6 from './components/section6/Section6'
+import Section7 from './components/section7/Section7'
 import SolutionSection from './components/solutionSection/SolutionSection'
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
       </div>
       <div className="section6">
         <Section6 />
+      </div>
+      <div className="section7">
+        <Section7 />
       </div>
     </div>
     </>

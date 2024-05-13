@@ -7,6 +7,7 @@ import Print from '../../assets/images/print.png'
 import Upsell from '../../assets/images/upsell.png'
 import Marketting from '../../assets/images/marketting.png'
 import Dashboard from '../../assets/images/dashboard.png'
+import Whitebar from '../../assets/images/whitebar.png'
 import Features from '../features/Features'
 
 const Section6 = () => {
@@ -29,7 +30,10 @@ const Section6 = () => {
             <Features icon={Dashboard} title='Dashboard & Reporting' text='Analysis of sales figures and statistics'/>
             <Features icon={Print} title='Print Management' text='Easy printing of orders in the kitchen and at the bar'/>
         </div>
-            </div>
+        <div className='whitebar-img'>
+            <img src={Whitebar} alt="" />
+        </div>
+        </div>
     </>
   )
 }
