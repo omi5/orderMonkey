@@ -4,11 +4,10 @@
 .section8Slider-container{
     display: flex;
     margin: 0 auto;
-    width: 70%;
+    width: 85%;
     height: 600px;
     align-items: center;
-    border: 1px solid black;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .section8Slider-container .section8SliderInfo{
     width: 685px;
@@ -27,7 +26,11 @@
     margin-top: 3.5%;
     margin-bottom: 3.5%;
 }
+
 .section8SliderInfo .info-img img{
     width: 105px;
     height: 56px;
+}
+.section8Slider-img{
+    padding-bottom: 8%;
 }

@@ -4,9 +4,24 @@
 }
 .section8-container{
     width: 100%;
-    height: 850px;
+    height: 900px;
     position: absolute;
     top: 64px;
     background-color: #e3051b;
     color: #fff;
+}
+.section8-container .section8-slider-div{
+    width: 80%;
+    margin: 0 auto;
+}
+.section8-container .heading-div {
+    width: 879px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+.section8-container .heading-div h1{
+    font-size: 58px;
+    font-weight: bold;
+
 }

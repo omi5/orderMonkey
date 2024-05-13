@@ -1,11 +1,13 @@
 import './App.css'
 import HeroSection from './components/heroSection/HeroSection'
+import Section10 from './components/section10/Section10'
 import Section3 from './components/section3/Section3'
 import Section4 from './components/section4/Section4'
 import Section5 from './components/section5/Section5'
 import Section6 from './components/section6/Section6'
 import Section7 from './components/section7/Section7'
 import Section8 from './components/section8/Section8'
+import Section9 from './components/section9/Section9'
 import SolutionSection from './components/solutionSection/SolutionSection'
 
 function App() {
@@ -36,6 +38,12 @@ function App() {
       </div>
       <div className="section8">
         <Section8 />
+      </div>
+      <div className="section9">
+        <Section9 />
+      </div>
+      <div className="section10">
+        <Section10 />
       </div>
     </div>
     </>
